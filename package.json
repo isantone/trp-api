@@ -1,0 +1,26 @@
+{
+  "name": "trp-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isantone/trp-api.git"
+  },
+  "author": "Anton Isakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isantone/trp-api/issues"
+  },
+  "homepage": "https://github.com/isantone/trp-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
