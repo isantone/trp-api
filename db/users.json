@@ -1,0 +1,54 @@
+[
+  {
+    "login": "ivan",
+    "password": "0000",
+    "info": {
+      "name": "Иван Иванов",
+      "age": 22,
+      "sex": "male"
+    },
+    "places": {
+      "restrict": [
+        "Ufa",
+        "Lipetzk"
+      ],
+      "fav": [
+        "Kazan",
+        "Ekaterinburg"
+      ]
+    },
+    "preferences": [
+      {
+        "architecture": 50,
+        "water": 20,
+        "modern": 40,
+        "people": 20
+      }
+    ]
+  },
+  {
+    "login": "petr",
+    "password": "1111",
+    "info": {
+      "name": "Петр Петров",
+      "age": 24,
+      "sex": "male"
+    },
+    "places": {
+      "restrict": [
+        "Kazan"
+      ],
+      "fav": [
+        "Moscow"
+      ]
+    },
+    "preferences": [
+      {
+        "architecture": 10,
+        "water": 40,
+        "modern": 100,
+        "people": 10
+      }
+    ]
+  }
+]

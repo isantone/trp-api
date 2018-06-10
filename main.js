@@ -3,13 +3,14 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-app.use(bodyParser.json());
+const api = require('./routes/api.js');
 
-app.use('/api', require('./routes/api'));
+app.use(bodyParser.json());
 
 const allowedOrigins = [
     'http://localhost:7777',
-    'http://localhost:7779'
+    'http://localhost:7779',
+    'http://localhost:4200'
 ]
 
 app.use(function(req, res, next) {
@@ -24,6 +25,16 @@ app.use(function(req, res, next) {
     res.header('Access-Control-Allow-Credentials', true);
 
     next();
+});
+
+app.use('/api', api.usersRouter);
+app.use('/api', api.placesRouter);
+
+// Unknown EndPoint
+app.use(function(req, res, next) {
+  const err = new Error('Not Found');
+  err.status = 404;
+  next(err);
 });
 
 app.listen(3003, () => console.log('The server is listening on http://localhost:3003'));
