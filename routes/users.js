@@ -9,16 +9,27 @@ const users = new UsersJson(path.join(__dirname, '..', 'db', 'users.json'));
 router.get('/users', (req, res) => {
   // const { userLogin, userPassword } = req.body;
 
-  res.send(users.obj);
+  return res.send(users.obj);
 });
 
 router.get('/users/:userLogin', (req, res) => {
   const userLogin = req.params.userLogin;
   const user = users.getUserByLogin(userLogin);
 
-  console.log('User:', user);
-  res.send(user);
+  console.log('User: #<', user.login, '> sent via GET query');
+  return res.send(user);
 });
+
+router.put('/users/:userLogin', (req, res) => {
+  const userLogin = req.params.userLogin;
+  const newUserPrefs = req.body;
+
+  const user = users.getUserByLogin(userLogin);
+  user.preferences = newUserPrefs;
+
+  console.log('User #<', user.login, '> sent via PUT query');
+  return res.send(user);
+})
 
 router.post('/register', (req, res) => {
   const regUser = req.body;
