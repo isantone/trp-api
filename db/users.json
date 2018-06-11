@@ -2,11 +2,17 @@
   {
     "login": "ivan",
     "password": "0000",
-    "info": {
-      "name": "Иван Иванов",
-      "age": 22,
-      "sex": "male"
-    },
+    "name": "Иван",
+    "info": [
+      {
+        "name": "Возраст",
+        "value": "22"
+      },
+      {
+        "name": "Пол",
+        "value": "Мужской"
+      }
+    ],
     "places": {
       "restrict": [
         "Ufa",
@@ -19,21 +25,53 @@
     },
     "preferences": [
       {
-        "architecture": 50,
-        "water": 20,
-        "modern": 40,
-        "people": 20
+        "name": "История",
+        "value": 9
+      },
+      {
+        "name": "Ахитектура",
+        "value": 9
+      },
+      {
+        "name": "Природа",
+        "value": 4
+      },
+      {
+        "name": "Еда",
+        "value": 7
+      },
+      {
+        "name": "Модерн",
+        "value": 10
+      },
+      {
+        "name": "Культура",
+        "value": 7
+      },
+      {
+        "name": "Пляжный отдых",
+        "value": 0
+      },
+      {
+        "name": "Акивный отдых",
+        "value": 8
       }
     ]
   },
   {
     "login": "petr",
     "password": "1111",
-    "info": {
-      "name": "Петр Петров",
-      "age": 24,
-      "sex": "male"
-    },
+    "name": "Петр",
+    "info": [
+      {
+        "name": "Возраст",
+        "value": "24"
+      },
+      {
+        "name": "Пол",
+        "value": "Мужской"
+      }
+    ],
     "places": {
       "restrict": [
         "Kazan"
@@ -44,10 +82,36 @@
     },
     "preferences": [
       {
-        "architecture": 10,
-        "water": 40,
-        "modern": 100,
-        "people": 10
+        "name": "История",
+        "value": 3
+      },
+      {
+        "name": "Ахитектура",
+        "value": 7
+      },
+      {
+        "name": "Природа",
+        "value": 9
+      },
+      {
+        "name": "Еда",
+        "value": 5
+      },
+      {
+        "name": "Модерн",
+        "value": 7
+      },
+      {
+        "name": "Культура",
+        "value": 3
+      },
+      {
+        "name": "Пляжный отдых",
+        "value": 10
+      },
+      {
+        "name": "Акивный отдых",
+        "value": 10
       }
     ]
   }
