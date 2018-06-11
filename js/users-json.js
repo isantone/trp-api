@@ -32,4 +32,17 @@ module.exports = class UsersJson extends Json {
 
     // Returns undefined in case of an Error, which is equal to success = false
   }
+
+  updateUserPrefs(userLogin, newUserPrefs) {
+    const updatingUser = this.getUserByLogin(userLogin);
+    updatingUser.preferences = newUserPrefs;
+
+    const success = this.writeInFile();
+
+    if (success) {
+      return this.getUserByLogin(updatingUser.login);
+    }
+
+    // Returns undefined in case of an Error, which is equal to success = false
+  }
 };

@@ -24,11 +24,14 @@ router.put('/users/:userLogin', (req, res) => {
   const userLogin = req.params.userLogin;
   const newUserPrefs = req.body;
 
-  const user = users.getUserByLogin(userLogin);
-  user.preferences = newUserPrefs;
+  const updatedUser = users.updateUserPrefs(userLogin, newUserPrefs);
 
-  console.log('User #<', user.login, '> sent via PUT query');
-  return res.send(user);
+  if (updatedUser) {
+    console.log('User #<', updatedUser.login, '> sent via PUT query');
+    return res.send(updatedUser);
+  }
+
+  return res.status(500).send({ success: false, message: 'Error during user updating.'});
 })
 
 router.post('/register', (req, res) => {
