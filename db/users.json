@@ -25,35 +25,43 @@
     },
     "preferences": [
       {
+        "id": "history",
         "name": "История",
         "value": 9
       },
       {
-        "name": "Ахитектура",
+        "id": "architecture",
+        "name": "Архитектура",
         "value": 9
       },
       {
+        "id": "nature",
         "name": "Природа",
         "value": 4
       },
       {
+        "id": "food",
         "name": "Еда",
         "value": 7
       },
       {
+        "id": "modern",
         "name": "Модерн",
         "value": 10
       },
       {
+        "id": "culture",
         "name": "Культура",
         "value": 7
       },
       {
+        "id": "water",
         "name": "Пляжный отдых",
-        "value": 0
+        "value": 1
       },
       {
-        "name": "Акивный отдых",
+        "id": "active",
+        "name": "Активный отдых",
         "value": 8
       }
     ]
@@ -82,35 +90,93 @@
     },
     "preferences": [
       {
+        "id": "history",
         "name": "История",
-        "value": 0
+        "value": 1
       },
       {
-        "name": "Ахитектура",
+        "id": "architecture",
+        "name": "Архитектура",
         "value": 7
       },
       {
+        "id": "nature",
         "name": "Природа",
         "value": 9
       },
       {
+        "id": "food",
         "name": "Еда",
         "value": 5
       },
       {
+        "id": "modern",
         "name": "Модерн",
         "value": 7
       },
       {
+        "id": "culture",
         "name": "Культура",
         "value": 3
       },
       {
+        "id": "water",
         "name": "Пляжный отдых",
         "value": 10
       },
       {
-        "name": "Акивный отдых",
+        "id": "active",
+        "name": "Активный отдых",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "login": "alex",
+    "password": "asfgas",
+    "places": {
+      "restrict": [],
+      "fav": []
+    },
+    "preferences": [
+      {
+        "id": "history",
+        "name": "История",
+        "value": 6
+      },
+      {
+        "id": "architecture",
+        "name": "Архитектура",
+        "value": 2
+      },
+      {
+        "id": "nature",
+        "name": "Природа",
+        "value": 7
+      },
+      {
+        "id": "food",
+        "name": "Еда",
+        "value": 4
+      },
+      {
+        "id": "modern",
+        "name": "Модерн",
+        "value": 9
+      },
+      {
+        "id": "culture",
+        "name": "Культура",
+        "value": 0
+      },
+      {
+        "id": "water",
+        "name": "Пляжный отдых",
+        "value": 3
+      },
+      {
+        "id": "active",
+        "name": "Активный отдых",
         "value": 10
       }
     ]

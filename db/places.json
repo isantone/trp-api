@@ -7,35 +7,43 @@
     "location": [55.796289, 49.108795],
     "preferences": [
       {
+        "id": "history",
         "name": "История",
         "value": 6
       },
       {
-        "name": "Ахитектура",
+        "id": "architecture",
+        "name": "Архитектура",
         "value": 4
       },
       {
+        "id": "nature",
         "name": "Природа",
         "value": 6
       },
       {
+        "id": "food",
         "name": "Еда",
         "value": 4
       },
       {
+        "id": "modern",
         "name": "Модерн",
         "value": 5
       },
       {
+        "id": "culture",
         "name": "Культура",
         "value": 5
       },
       {
+        "id": "water",
         "name": "Пляжный отдых",
         "value": 0
       },
       {
-        "name": "Акивный отдых",
+        "id": "active",
+        "name": "Активный отдых",
         "value": 6
       }
     ]
@@ -48,35 +56,43 @@
     "location": [56.852593, 53.204843],
     "preferences": [
       {
+        "id": "history",
         "name": "История",
         "value": 6
       },
       {
-        "name": "Ахитектура",
+        "id": "architecture",
+        "name": "Архитектура",
         "value": 6
       },
       {
+        "id": "nature",
         "name": "Природа",
         "value": 6
       },
       {
+        "id": "food",
         "name": "Еда",
         "value": 6
       },
       {
+        "id": "modern",
         "name": "Модерн",
         "value": 7
       },
       {
+        "id": "culture",
         "name": "Культура",
         "value": 6
       },
       {
+        "id": "water",
         "name": "Пляжный отдых",
         "value": 0
       },
       {
-        "name": "Акивный отдых",
+        "id": "active",
+        "name": "Активный отдых",
         "value": 6
       }
     ]
@@ -89,35 +105,43 @@
     "location": [58.010374, 56.229398],
     "preferences": [
       {
+        "id": "history",
         "name": "История",
         "value": 3
       },
       {
-        "name": "Ахитектура",
+        "id": "architecture",
+        "name": "Архитектура",
         "value": 6
       },
       {
+        "id": "nature",
         "name": "Природа",
         "value": 6
       },
       {
+        "id": "food",
         "name": "Еда",
         "value": 6
       },
       {
+        "id": "modern",
         "name": "Модерн",
         "value": 6
       },
       {
+        "id": "culture",
         "name": "Культура",
         "value": 4
       },
       {
+        "id": "water",
         "name": "Пляжный отдых",
         "value": 0
       },
       {
-        "name": "Акивный отдых",
+        "id": "active",
+        "name": "Активный отдых",
         "value": 6
       }
     ]
@@ -130,35 +154,43 @@
     "location": [55.160026, 61.402590],
     "preferences": [
       {
+        "id": "history",
         "name": "История",
         "value": 3
       },
       {
-        "name": "Ахитектура",
+        "id": "architecture",
+        "name": "Архитектура",
         "value": 5
       },
       {
+        "id": "nature",
         "name": "Природа",
         "value": 5
       },
       {
+        "id": "food",
         "name": "Еда",
         "value": 5
       },
       {
+        "id": "modern",
         "name": "Модерн",
         "value": 5
       },
       {
+        "id": "culture",
         "name": "Культура",
         "value": 3
       },
       {
+        "id": "water",
         "name": "Пляжный отдых",
         "value": 0
       },
       {
-        "name": "Акивный отдых",
+        "id": "active",
+        "name": "Активный отдых",
         "value": 5
       }
     ]
@@ -171,35 +203,43 @@
     "location": [54.735147, 55.958727],
     "preferences": [
       {
+        "id": "history",
         "name": "История",
         "value": 1
       },
       {
-        "name": "Ахитектура",
+        "id": "architecture",
+        "name": "Архитектура",
         "value": 5
       },
       {
+        "id": "nature",
         "name": "Природа",
         "value": 1
       },
       {
+        "id": "food",
         "name": "Еда",
         "value": 4
       },
       {
+        "id": "modern",
         "name": "Модерн",
         "value": 5
       },
       {
+        "id": "culture",
         "name": "Культура",
         "value": 4
       },
       {
+        "id": "water",
         "name": "Пляжный отдых",
         "value": 0
       },
       {
-        "name": "Акивный отдых",
+        "id": "active",
+        "name": "Активный отдых",
         "value": 3
       }
     ]
@@ -212,35 +252,43 @@
     "location": [52.608782, 39.599346],
     "preferences": [
       {
+        "id": "history",
         "name": "История",
         "value": 1
       },
       {
-        "name": "Ахитектура",
+        "id": "architecture",
+        "name": "Архитектура",
         "value": 5
       },
       {
+        "id": "nature",
         "name": "Природа",
         "value": 3
       },
       {
+        "id": "food",
         "name": "Еда",
         "value": 6
       },
       {
+        "id": "modern",
         "name": "Модерн",
         "value": 5
       },
       {
+        "id": "culture",
         "name": "Культура",
         "value": 3
       },
       {
+        "id": "water",
         "name": "Пляжный отдых",
         "value": 0
       },
       {
-        "name": "Акивный отдых",
+        "id": "active",
+        "name": "Активный отдых",
         "value": 3
       }
     ]
@@ -253,35 +301,43 @@
     "location": [56.838011, 60.597465],
     "preferences": [
       {
+        "id": "history",
         "name": "История",
         "value": 5
       },
       {
-        "name": "Ахитектура",
+        "id": "architecture",
+        "name": "Архитектура",
         "value": 7
       },
       {
+        "id": "nature",
         "name": "Природа",
         "value": 2
       },
       {
+        "id": "food",
         "name": "Еда",
         "value": 6
       },
       {
+        "id": "modern",
         "name": "Модерн",
         "value": 7
       },
       {
+        "id": "culture",
         "name": "Культура",
         "value": 4
       },
       {
+        "id": "water",
         "name": "Пляжный отдых",
         "value": 0
       },
       {
-        "name": "Акивный отдых",
+        "id": "active",
+        "name": "Активный отдых",
         "value": 3
       }
     ]
@@ -294,35 +350,43 @@
     "location": [43.585525, 39.723062],
     "preferences": [
       {
+        "id": "history",
         "name": "История",
         "value": 3
       },
       {
-        "name": "Ахитектура",
+        "id": "architecture",
+        "name": "Архитектура",
         "value": 7
       },
       {
+        "id": "nature",
         "name": "Природа",
         "value": 9
       },
       {
+        "id": "food",
         "name": "Еда",
         "value": 5
       },
       {
+        "id": "modern",
         "name": "Модерн",
         "value": 7
       },
       {
+        "id": "culture",
         "name": "Культура",
         "value": 3
       },
       {
+        "id": "water",
         "name": "Пляжный отдых",
         "value": 10
       },
       {
-        "name": "Акивный отдых",
+        "id": "active",
+        "name": "Активный отдых",
         "value": 10
       }
     ]
@@ -335,35 +399,43 @@
     "location": [55.755814, 37.617635],
     "preferences": [
       {
+        "id": "history",
         "name": "История",
         "value": 9
       },
       {
-        "name": "Ахитектура",
+        "id": "architecture",
+        "name": "Архитектура",
         "value": 9
       },
       {
+        "id": "nature",
         "name": "Природа",
         "value": 4
       },
       {
+        "id": "food",
         "name": "Еда",
         "value": 7
       },
       {
+        "id": "modern",
         "name": "Модерн",
         "value": 10
       },
       {
+        "id": "culture",
         "name": "Культура",
         "value": 7
       },
       {
+        "id": "water",
         "name": "Пляжный отдых",
         "value": 0
       },
       {
-        "name": "Акивный отдых",
+        "id": "active",
+        "name": "Активный отдых",
         "value": 8
       }
     ]
@@ -376,35 +448,43 @@
     "location": [59.939095, 30.315868],
     "preferences": [
       {
+        "id": "history",
         "name": "История",
         "value": 10
       },
       {
-        "name": "Ахитектура",
+        "id": "architecture",
+        "name": "Архитектура",
         "value": 8
       },
       {
+        "id": "nature",
         "name": "Природа",
         "value": 8
       },
       {
+        "id": "food",
         "name": "Еда",
         "value": 7
       },
       {
+        "id": "modern",
         "name": "Модерн",
         "value": 8
       },
       {
+        "id": "culture",
         "name": "Культура",
         "value": 8
       },
       {
+        "id": "water",
         "name": "Пляжный отдых",
         "value": 2
       },
       {
-        "name": "Акивный отдых",
+        "id": "active",
+        "name": "Активный отдых",
         "value": 8
       }
     ]
