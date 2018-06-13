@@ -29,6 +29,7 @@ app.use(function(req, res, next) {
 
 app.use('/api', api.usersRouter);
 app.use('/api', api.placesRouter);
+app.use('/api', api.routesRouter);
 
 // Unknown EndPoint
 app.use(function(req, res, next) {
