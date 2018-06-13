@@ -1,5 +1,7 @@
 const Json = require('./json');
 
+const userConstructor = require('./user');
+
 module.exports = class UsersJson extends Json {
   getUserByLogin(userLogin) {
     return this.getElementByPropertyValue('login', userLogin);
@@ -21,7 +23,9 @@ module.exports = class UsersJson extends Json {
     return false;
   }
 
-  registerUser(regUser) {
+  registerUser(regUserInfo) {
+    const regUser = Object.assign({}, regUserInfo, userConstructor);
+
     this.obj.push(regUser);
 
     const success = this.writeInFile();

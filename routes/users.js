@@ -16,6 +16,10 @@ router.get('/users/:userLogin', (req, res) => {
   const userLogin = req.params.userLogin;
   const user = users.getUserByLogin(userLogin);
 
+  if (!user) {
+    return res.status(403).send({ success: false, message: 'Wrong email or password.'});
+  }
+
   console.log('User: #<', user.login, '> sent via GET query');
   return res.send(user);
 });
@@ -34,7 +38,7 @@ router.put('/users/:userLogin', (req, res) => {
   return res.status(500).send({ success: false, message: 'Error during user updating.'});
 })
 
-router.post('/register', (req, res) => {
+router.post('/users/register', (req, res) => {
   const regUser = req.body;
 
   if (!regUser.login || !regUser.password) {
