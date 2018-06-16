@@ -11,6 +11,7 @@ const users = new UsersJson(path.join(__dirname, '..', '..', 'db', 'users.json')
 const places = new PlacesJson(path.join(__dirname, '..', '..', 'db', 'places.json'));
 
 const findFavCities = require('./recommender');
+const optimizeRoute = require('./route-optimizer');
 
 router.get('/recommendations/:userLogin', (req, res) => {
   const userLogin = req.params.userLogin;
@@ -18,6 +19,8 @@ router.get('/recommendations/:userLogin', (req, res) => {
   const user = users.getUserByLogin(userLogin);
 
   const recommendation = findFavCities(user, places.obj);
+
+  recommendation.optimizedCityPrefs = optimizeRoute(recommendation.cityPrefs);
 
   res.send(recommendation);
 });
