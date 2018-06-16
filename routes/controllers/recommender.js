@@ -35,7 +35,7 @@ function formCityPrefs(cities, prefs) {
 
   cities.forEach((city) => {
     const cityPrefEl = {
-      cityId: city.id,
+      city: city,
       mainPrefs: []
     };
 

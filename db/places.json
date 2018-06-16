@@ -4,7 +4,7 @@
     "id": "Izhevsk",
     "type": "city",
     "country": "Russia",
-    "location": [55.796289, 49.108795],
+    "location": [56.852593, 53.204843],
     "preferences": [
       {
         "id": "history",
@@ -53,7 +53,7 @@
     "id": "Kazan",
     "type": "city",
     "country": "Russia",
-    "location": [56.852593, 53.204843],
+    "location": [55.796289, 49.108795],
     "preferences": [
       {
         "id": "history",

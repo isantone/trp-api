@@ -57,12 +57,12 @@
       {
         "id": "water",
         "name": "Пляжный отдых",
-        "value": 1
+        "value": 10
       },
       {
         "id": "active",
         "name": "Активный отдых",
-        "value": 8
+        "value": 10
       }
     ]
   },
@@ -97,12 +97,12 @@
       {
         "id": "architecture",
         "name": "Архитектура",
-        "value": 7
+        "value": 9
       },
       {
         "id": "nature",
         "name": "Природа",
-        "value": 9
+        "value": 0
       },
       {
         "id": "food",
@@ -112,7 +112,7 @@
       {
         "id": "modern",
         "name": "Модерн",
-        "value": 7
+        "value": 0
       },
       {
         "id": "culture",
