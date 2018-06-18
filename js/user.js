@@ -38,7 +38,7 @@ module.exports = {
     },
     {
       "id": "modern",
-      "name": "Модерн",
+      "name": "Мегаполисы",
       "value": 0
     },
     {

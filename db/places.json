@@ -28,7 +28,7 @@
       },
       {
         "id": "modern",
-        "name": "Модерн",
+        "name": "Мегаполисы",
         "value": 5
       },
       {
@@ -77,7 +77,7 @@
       },
       {
         "id": "modern",
-        "name": "Модерн",
+        "name": "Мегаполисы",
         "value": 7
       },
       {
@@ -94,6 +94,104 @@
         "id": "active",
         "name": "Активный отдых",
         "value": 6
+      }
+    ]
+  },
+  {
+    "name": "Ростов-на-Дону",
+    "id": "Rostov",
+    "type": "city",
+    "country": "Russia",
+    "location": [47.222543, 39.718732],
+    "preferences": [
+      {
+        "id": "history",
+        "name": "История",
+        "value": 6
+      },
+      {
+        "id": "architecture",
+        "name": "Архитектура",
+        "value": 6
+      },
+      {
+        "id": "nature",
+        "name": "Природа",
+        "value": 6
+      },
+      {
+        "id": "food",
+        "name": "Еда",
+        "value": 10
+      },
+      {
+        "id": "modern",
+        "name": "Мегаполисы",
+        "value": 7
+      },
+      {
+        "id": "culture",
+        "name": "Культура",
+        "value": 9
+      },
+      {
+        "id": "water",
+        "name": "Пляжный отдых",
+        "value": 3
+      },
+      {
+        "id": "active",
+        "name": "Активный отдых",
+        "value": 9
+      }
+    ]
+  },
+  {
+    "name": "Волгоград",
+    "id": "Volgograd",
+    "type": "city",
+    "country": "Russia",
+    "location": [48.707103, 44.516939],
+    "preferences": [
+      {
+        "id": "history",
+        "name": "История",
+        "value": 10
+      },
+      {
+        "id": "architecture",
+        "name": "Архитектура",
+        "value": 7
+      },
+      {
+        "id": "nature",
+        "name": "Природа",
+        "value": 10
+      },
+      {
+        "id": "food",
+        "name": "Еда",
+        "value": 5
+      },
+      {
+        "id": "modern",
+        "name": "Мегаполисы",
+        "value": 7
+      },
+      {
+        "id": "culture",
+        "name": "Культура",
+        "value": 6
+      },
+      {
+        "id": "water",
+        "name": "Пляжный отдых",
+        "value": 7
+      },
+      {
+        "id": "active",
+        "name": "Активный отдых",
+        "value": 7
       }
     ]
   },
@@ -126,7 +224,7 @@
       },
       {
         "id": "modern",
-        "name": "Модерн",
+        "name": "Мегаполисы",
         "value": 6
       },
       {
@@ -175,7 +273,7 @@
       },
       {
         "id": "modern",
-        "name": "Модерн",
+        "name": "Мегаполисы",
         "value": 5
       },
       {
@@ -224,7 +322,7 @@
       },
       {
         "id": "modern",
-        "name": "Модерн",
+        "name": "Мегаполисы",
         "value": 5
       },
       {
@@ -273,7 +371,7 @@
       },
       {
         "id": "modern",
-        "name": "Модерн",
+        "name": "Мегаполисы",
         "value": 5
       },
       {
@@ -322,7 +420,7 @@
       },
       {
         "id": "modern",
-        "name": "Модерн",
+        "name": "Мегаполисы",
         "value": 7
       },
       {
@@ -339,6 +437,55 @@
         "id": "active",
         "name": "Активный отдых",
         "value": 3
+      }
+    ]
+  },
+  {
+    "name": "Краснодар",
+    "id": "Krasnodar",
+    "type": "city",
+    "country": "Russia",
+    "location": [45.035566, 38.974711],
+    "preferences": [
+      {
+        "id": "history",
+        "name": "История",
+        "value": 4
+      },
+      {
+        "id": "architecture",
+        "name": "Архитектура",
+        "value": 8
+      },
+      {
+        "id": "nature",
+        "name": "Природа",
+        "value": 9
+      },
+      {
+        "id": "food",
+        "name": "Еда",
+        "value": 5
+      },
+      {
+        "id": "modern",
+        "name": "Мегаполисы",
+        "value": 9
+      },
+      {
+        "id": "culture",
+        "name": "Культура",
+        "value": 4
+      },
+      {
+        "id": "water",
+        "name": "Пляжный отдых",
+        "value": 4
+      },
+      {
+        "id": "active",
+        "name": "Активный отдых",
+        "value": 9
       }
     ]
   },
@@ -371,7 +518,7 @@
       },
       {
         "id": "modern",
-        "name": "Модерн",
+        "name": "Мегаполисы",
         "value": 7
       },
       {
@@ -420,7 +567,7 @@
       },
       {
         "id": "modern",
-        "name": "Модерн",
+        "name": "Мегаполисы",
         "value": 10
       },
       {
@@ -469,7 +616,7 @@
       },
       {
         "id": "modern",
-        "name": "Модерн",
+        "name": "Мегаполисы",
         "value": 8
       },
       {

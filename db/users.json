@@ -27,32 +27,32 @@
       {
         "id": "history",
         "name": "История",
-        "value": 9
+        "value": 0
       },
       {
         "id": "architecture",
         "name": "Архитектура",
-        "value": 9
+        "value": 7
       },
       {
         "id": "nature",
         "name": "Природа",
-        "value": 4
+        "value": 7
       },
       {
         "id": "food",
         "name": "Еда",
-        "value": 7
+        "value": 0
       },
       {
         "id": "modern",
-        "name": "Модерн",
+        "name": "Мегаполисы",
         "value": 10
       },
       {
         "id": "culture",
         "name": "Культура",
-        "value": 7
+        "value": 0
       },
       {
         "id": "water",
@@ -92,17 +92,17 @@
       {
         "id": "history",
         "name": "История",
-        "value": 1
+        "value": 5
       },
       {
         "id": "architecture",
         "name": "Архитектура",
-        "value": 9
+        "value": 5
       },
       {
         "id": "nature",
         "name": "Природа",
-        "value": 0
+        "value": 5
       },
       {
         "id": "food",
@@ -111,23 +111,23 @@
       },
       {
         "id": "modern",
-        "name": "Модерн",
-        "value": 0
+        "name": "Мегаполисы",
+        "value": 5
       },
       {
         "id": "culture",
         "name": "Культура",
-        "value": 3
+        "value": 5
       },
       {
         "id": "water",
         "name": "Пляжный отдых",
-        "value": 10
+        "value": 5
       },
       {
         "id": "active",
         "name": "Активный отдых",
-        "value": 10
+        "value": 5
       }
     ]
   },
@@ -161,7 +161,7 @@
       },
       {
         "id": "modern",
-        "name": "Модерн",
+        "name": "Мегаполисы",
         "value": 9
       },
       {
@@ -173,6 +173,56 @@
         "id": "water",
         "name": "Пляжный отдых",
         "value": 3
+      },
+      {
+        "id": "active",
+        "name": "Активный отдых",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "login": "Иван Иванов",
+    "password": "zzzz",
+    "places": {
+      "restrict": [],
+      "fav": []
+    },
+    "preferences": [
+      {
+        "id": "history",
+        "name": "История",
+        "value": 0
+      },
+      {
+        "id": "architecture",
+        "name": "Архитектура",
+        "value": 0
+      },
+      {
+        "id": "nature",
+        "name": "Природа",
+        "value": 9
+      },
+      {
+        "id": "food",
+        "name": "Еда",
+        "value": 0
+      },
+      {
+        "id": "modern",
+        "name": "Мегаполисы",
+        "value": 8
+      },
+      {
+        "id": "culture",
+        "name": "Культура",
+        "value": 0
+      },
+      {
+        "id": "water",
+        "name": "Пляжный отдых",
+        "value": 10
       },
       {
         "id": "active",
