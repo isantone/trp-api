@@ -192,12 +192,12 @@
       {
         "id": "history",
         "name": "История",
-        "value": 0
+        "value": 1
       },
       {
         "id": "architecture",
         "name": "Архитектура",
-        "value": 0
+        "value": 3
       },
       {
         "id": "nature",
@@ -227,7 +227,107 @@
       {
         "id": "active",
         "name": "Активный отдых",
+        "value": 9
+      }
+    ]
+  },
+  {
+    "login": "Петр Петров",
+    "password": "фыафыа",
+    "places": {
+      "restrict": [],
+      "fav": []
+    },
+    "preferences": [
+      {
+        "id": "history",
+        "name": "История",
+        "value": 8
+      },
+      {
+        "id": "architecture",
+        "name": "Архитектура",
+        "value": 8
+      },
+      {
+        "id": "nature",
+        "name": "Природа",
+        "value": 9
+      },
+      {
+        "id": "food",
+        "name": "Еда",
+        "value": 6
+      },
+      {
+        "id": "modern",
+        "name": "Мегаполисы",
         "value": 10
+      },
+      {
+        "id": "culture",
+        "name": "Культура",
+        "value": 0
+      },
+      {
+        "id": "water",
+        "name": "Пляжный отдых",
+        "value": 0
+      },
+      {
+        "id": "active",
+        "name": "Активный отдых",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "login": "Сергей Сергеев",
+    "password": "афыафы",
+    "places": {
+      "restrict": [],
+      "fav": []
+    },
+    "preferences": [
+      {
+        "id": "history",
+        "name": "История",
+        "value": 8
+      },
+      {
+        "id": "architecture",
+        "name": "Архитектура",
+        "value": 10
+      },
+      {
+        "id": "nature",
+        "name": "Природа",
+        "value": 9
+      },
+      {
+        "id": "food",
+        "name": "Еда",
+        "value": 10
+      },
+      {
+        "id": "modern",
+        "name": "Мегаполисы",
+        "value": 1
+      },
+      {
+        "id": "culture",
+        "name": "Культура",
+        "value": 3
+      },
+      {
+        "id": "water",
+        "name": "Пляжный отдых",
+        "value": 0
+      },
+      {
+        "id": "active",
+        "name": "Активный отдых",
+        "value": 1
       }
     ]
   }
